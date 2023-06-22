@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-image: url(https://cdn.glitch.com/d91e5e60-e604-4d4b-b7c0-95e685dbb5fc%2F4.jpg?v=1631040828157);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-color: #7f7c82;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 0;
+    padding: 30px 0px 0px 0px;
+    color: #171717;
+}
+.background{
+    background-image: linear-gradient( 180.2deg,  rgba(245, 244, 244, 0.3) 6.8%, rgba(245, 244, 244, 0.3) 131% );
+}
+
+#myImage{
+    width: 550px;
+    height: 330px;
+    box-shadow: 2px 2px 10px 2px rgba(56,56,58,0.6);
+    margin-top: 10px;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    font-weight: 950;
+    color: #171717;
+    background-image: linear-gradient( 180.2deg,  rgba(245, 244, 244, 0.5) 6.8%, rgba(245, 244, 244, 0.8) 131% );
+    padding: 20px 30px;
+    border-radius: 7px;
+    margin: 10px 0px;
+}
+
+#country{
+    font-family: 'Merriweather', serif;
+    font-size: 27px;
+    color: #171717;
+    display: none;
+}
+
+#one{
+    background-color:  #57b84d;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border: 2px solid #F0A500;
+    color: rgb(245,245,245);
+    margin: 0px 3px;
+    border-radius: 5px;
+}
+
+#one:hover{
+    background-color: #A0E418;
+    color: #171717;
+}
+
+#two{
+    background-color: #048998;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border: 2px solid #F0A500;
+    color: rgb(245,245,245);
+    margin: 0px 3px;
+    border-radius: 5px;
+}
+
+#two:hover{
+    background-color: #3BB4C1;
+    color: #171717;
+}
+
+.home{
+    width: 35px;
+    height: 35px;
+    margin: 30px 5px 10px 5px;
+}
